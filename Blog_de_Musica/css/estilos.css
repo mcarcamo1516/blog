@@ -18,3 +18,10 @@ article p{
 aside{
     background-color: greenyellow;
 }
+footer p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+
+}
