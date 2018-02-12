@@ -1,8 +1,8 @@
+
+
 ul.social-network {
 	list-style:none;
 	margin:0;
-    height: 100px;
-   
 }
 
 ul.social-network li {
@@ -12,7 +12,7 @@ ul.social-network li {
 	display: inline-block;
 	text-align: center;
 	height: 32px;
-    vertical-align: bottom
+    vertical-align: text-bottom;
 }
 article p{
     text-align: justify;
@@ -44,5 +44,19 @@ footer p{
     .post .thumb{
         width: 100%
     }
+    
+}
+@media screen and (min-width: 480px){
+    .titulo{
+    height: 100px;
+    position: relative;
+    
+    }
+    ul.social-network {
+    position: absolute;
+    bottom: 0;
+    right: 0
+    }
+
     
 }
