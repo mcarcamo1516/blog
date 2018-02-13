@@ -1,10 +1,4 @@
-.barra-superior{
-  min-height: 4rem;
+.titulo{
+  height: 100px
 }
-div[class*="columna"]{
-  min-height: 50rem;
-  border: 1px solid #eceff1;
-}
-div[class*="bloque"]{
-  height: 25rem;
-}
+
