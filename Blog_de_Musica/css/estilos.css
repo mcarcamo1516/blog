@@ -40,10 +40,22 @@ footer p{
 .post .thumb img{
     width: 100%
 }
+.post .thumb1{
+    margin-left: 20px;
+    width: 40%
+}
+.post .thumb1 img{
+    width: 100%
+}
+
 @media screen and (max-width: 480px){
     .post .thumb{
         width: 100%
     }
+        .post .thumb1{
+        width: 100%
+    }
+    
     
 }
 @media screen and (min-width: 480px){
