@@ -1,12 +1,4 @@
 .titulo{
-  height: 100px
+  margin: 10px
 }
 
-*{
-    padding: 0;
-    border: 0;
-    margin: 0;
-}
-nav{
-    background: none;
-}
