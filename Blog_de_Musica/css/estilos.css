@@ -6,13 +6,11 @@ ul.social-network {
 }
 
 ul.social-network li {
-	display:inline;
     font-size: 25px;
 	width: 40px;
 	display: inline-block;
 	text-align: center;
 	height: 32px;
-    vertical-align: text-bottom;
 }
 article p{
     text-align: justify;
