@@ -1,7 +1,18 @@
 h1{
     font-size: 30px;
 }
-h2{
+.slogan{
     font-size: 20px;
     text-align: right
+}
+
+body{
+    background-image: url(../img/restaurant.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 
+        
+}
+.cuerpo{
+    background-color: aqua;
 }

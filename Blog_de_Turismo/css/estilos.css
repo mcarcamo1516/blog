@@ -2,6 +2,13 @@ body{
     background-image: url(../img/Zoologico4.jpg);
     background-attachment: fixed;
     background-size: 100%;
+    background-position: 
+}
+nav{
+    background-color: dodgerblue;
+    height: 110px;
+    background-attachment: fixed;
+    
 }
 
 .titulo{
@@ -9,9 +16,13 @@ body{
 }
 
 .post .thumb{
-    margin-right: 20px;
+    margin-right: 25px;
     width: 40%
 }
+
+
+
+/*ajustes responsive*/
 @media screen and (max-width: 480px){
     .post .thumb{
         width: 100%
