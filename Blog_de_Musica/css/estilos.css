@@ -1,8 +1,20 @@
+body{
+    background-color: #D4DEF7;
+}
+.cabezera{
+    background-color: #0145FE;
+    
+}
 
+.color-cabezera{
+    color: #340D09;
+    font-size: 25px
+}
 
 ul.social-network {
 	list-style:none;
 	margin:0;
+    
 }
 
 ul.social-network li {
@@ -11,12 +23,14 @@ ul.social-network li {
 	display: inline-block;
 	text-align: center;
 	height: 32px;
+    
 }
+
 article p{
     text-align: justify;
 }
 aside{
-    background-color: greenyellow;
+    background-color: #FAFA38;
 }
 footer p{
     background-color: black;
