@@ -54,6 +54,9 @@ footer p{
 aside{
     margin-top: 30px;
 }
+.lista-busqueda ul li{
+    list-style: none;
+}
 
 @media screen and (max-width: 480px){
   
