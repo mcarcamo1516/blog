@@ -20,5 +20,17 @@ body{
     list-style:none;
 }
 .articulo{
-    background-color: rgb(0, 255, 255);
+    background-color: #00ffff;
+}
+.lateral{
+    background-color: #00ffcc;
+    padding: 15px;
+}
+.cabezera{
+    border-bottom: solid 1px;
+    margin-bottom: 10px;
+}
+.titulo{
+    border-right: solid 1px;
+    margin-bottom: 10px;
 }

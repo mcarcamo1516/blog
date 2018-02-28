@@ -10,28 +10,31 @@
   </head>
   <body>
     <div class="cuerpo row">
-    
-      <div class="large-3 medium-4 small-12 columns">
-        <div>
-            <h1>Gastronomia</h1>
-            <p class="slogan">mis recetas</p>
-        </div>
-      </div>
-      <div class="large-9 medium-8 columns hide-for-small-only">
-       
-      </div>
+    <div class="large-12 columns">
+        <div class="cabezera row">    
+              <div class="titulo large-3 medium-4 small-12 columns">
+                <div>
+                    <h1>Gastronomia</h1>
+                    <p class="slogan">mis recetas</p>
+                </div>
+              </div>
+              <div class="large-9 medium-8 columns hide-for-small-only">
 
-    
+              </div>
+        </div>   
+    </div>
+    <div class="row">
     <!-- inicio seccion  menu -->
       <div class="large-3 medium-4  columns hide-for-small-only">
+      <div class="lateral">
        <form action="" class="">
-           <label>
-               <input type="text" placeholder="Buscar">
-               <input type="submit" class="button float-right"/>
-           </label>
-           <label for="">
-               
-           </label>
+           <div class="input-group">
+               <input type="text" placeholder="Buscar" class="input-group-field">
+                 <div class="input-group-button">
+                    <input type="submit" class="button" value="Buscar">
+                </div>
+           </div>
+
            
        </form>
         <ul class="vertical menu" data-dropdown-menu style="max-width: 250px;">
@@ -69,7 +72,7 @@
                 <li></li>
             </ul>
         </div>
-        
+        </div>
       </div>
       <!-- fin seccion  menu -->
       
@@ -91,6 +94,13 @@
                     ubi malis fugiat. Ubi excepteur instituendarum, ne anim arbitrantur, ut sint 
                     nescius admodum est ad sint amet quid ingeniis. Varias tempor fidelissimae.
                 </p>
+                <form action="">
+                    <div class="">
+                    <label>Comentario</label>
+                    <textarea placeholder="comentario"></textarea>
+                    <input type="submit" class="button" value="enviar">
+                    </div>
+                </form>
             </div>
             </div>
 
@@ -113,11 +123,19 @@
                         nostrud praesentibus, culpa id singulis si fugiat, vidisse irure fugiat an sint. 
                         Sed culpa ab quis, lorem offendit a commodo.
                     </p>
+                    <form action="">
+                        <div class="">
+                        <label>Comentario</label>
+                        <textarea placeholder="comentario"></textarea>
+                        <input type="submit" class="button" value="enviar">
+                        </div>
+                    </form>
+
                 </div>
             </div>
       </div>
       <!--inicio de articulos -->
-
+    </div>
     </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
