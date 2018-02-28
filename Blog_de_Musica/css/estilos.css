@@ -1,5 +1,6 @@
 body{
     background-color: #D4DEF7;
+    margin: 0
 }
 .cabezera{
     background-color: #0145FE;
@@ -29,7 +30,8 @@ ul.social-network li {
 article p{
     text-align: justify;
 }
-aside{
+section{
+    
     background-color: #FAFA38;
 }
 footer p{
@@ -45,29 +47,16 @@ footer p{
 .post .post-titulo{
     color: #333
 }
-.post .thumb{
-    margin-right: 20px;
-    width: 40%
+.imagen{
+    margin-top: 30px;
+   
 }
-.post .thumb img{
-    width: 100%
-}
-.post .thumb1{
-    margin-left: 20px;
-    width: 40%
-}
-.post .thumb1 img{
-    width: 100%
+aside{
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 480px){
-    .post .thumb{
-        width: 100%
-    }
-        .post .thumb1{
-        width: 100%
-    }
-    
+  
     
 }
 @media screen and (min-width: 480px){

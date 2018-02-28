@@ -14,8 +14,11 @@ body{
         
 }
 .cuerpo{
-    background-color: aqua;
+    background-color: rgba(0, 255, 255,0.3);
 }
 .historial{
     list-style:none;
+}
+.articulo{
+    background-color: rgb(0, 255, 255);
 }
